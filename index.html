@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project №2</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__box">
+          <a href="/index.html" class="header__logo">
+            <img src="./img/logo(1).svg" alt="Benelli" />
+          </a>
+          <nav class="header__nav">
+            <a href="#" class="header__nav-link">Our services</a>
+            <a href="#" class="header__nav-link">Benefits</a>
+            <a href="#" class="header__nav-link">Scheme of work</a>
+            <a href="#" class="header__nav-link">Delivery</a>
+          </nav>
+
+          <button class="header__btn">Request a call</button>
+        </div>
+      </div>
+    </header>
+    <section class="main-screen">
+      <div class="container">
+        <h6 class="main-screen__text">
+          Profitable terms. High speed. Fast calculation.
+        </h6>
+        <h1 class="main-screen__title">
+          Search and delivery of goods from China
+        </h1>
+      </div>
+      <form class="main-screen__form" method="GET">
+        <div class="form__title">Delivery cost calculation</div>
+        <div class="form__inputs">
+          <input
+            type="text"
+            name="username"
+            placeholder="Name "
+            class="form__input"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="E-mail "
+            class="form__input"
+          />
+          <input
+            type="tel"
+            name="tel"
+            placeholder="Enter your phone "
+            class="form__input"
+          />
+          <button class="form__btn">Order calculation</button>
+        </div>
+      </form>
+    </section>
+    <section class="services">
+      <div class="container">
+        <h2 class="services__title">Our services</h2>
+        <div class="services__items">
+          <div class="services__item item__airplane">
+            <img
+              src="./img/icons8-airplane-mode-on-96_(1).png"
+              alt="Air delivery"
+            />
+            <h3>Air delivery</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et <br />
+              dolorempor incididunt set
+            </p>
+            <p class="services__price price__airplane">from $150</p>
+          </div>
+
+          <div class="services__item item__truck">
+            <img src="./img/icons8-food-truck-96.png" alt="Auto delivery" />
+            <h3>Auto delivery</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et <br />
+              dolorempor incididunt set
+            </p>
+            <p class="services__price price__truck">from $250</p>
+          </div>
+
+          <div class="services__item item__shop">
+            <img src="./img/icons8-shop-96.png" alt="Shop tours" />
+            <h3>Shop tours</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et <br />
+              dolorempor incididunt set
+            </p>
+            <p class="services__price price__shop">from $350</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="discount">
+      <div class="container">
+        <h2 class="discount__title">
+          Leave a request for calculation <br />
+          right now and get a discount
+          <span class="discount__title_percent">-10%</span>
+        </h2>
+        <div class="discount__timer">
+          <div class="timer__text">
+            <h2>This offer ends in:</h2>
+            <p>
+              Hurry up to use proposal
+            </p>
+          </div>
+          <div class="timer__time">
+            <h2 class="time-left"></h2>
+            <p>minutes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pricelist">
+      <div class="container">
+        <h2 class="pricelist__title">Prices for our services</h2>
+        <div class="overflow">
+          <table class="pricelist__table">
+            <tr class="pricelist__table_head">
+              <th>
+                Distance / <br />
+                way
+              </th>
+              <th>Before 1000 км.</th>
+              <th>Before 2000 км.</th>
+              <th>Before 3000 км.</th>
+              <th>Before 4000 км.</th>
+              <th>Before 5000 км.</th>
+            </tr>
+            <tr>
+              <td>Air delivery</td>
+              <td>$654</td>
+              <td>$754</td>
+              <td>$854</td>
+              <td>$954</td>
+              <td>$1054</td>
+            </tr>
+            <tr>
+              <td>Auto delivery</td>
+              <td></td>
+              <td>$746</td>
+              <td>$956</td>
+              <td>$20</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Shop tours</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>$3454</td>
+            </tr>
+            <tr>
+              <td>Other</td>
+              <td>$128</td>
+              <td>$129</td>
+              <td>$130</td>
+              <td>$131</td>
+              <td>$132</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="form-bottom">
+      <div class="container">
+        <form class="form-bottom__form" method="GET">
+          <div class="form-bottom__title">Delivery cost calculation</div>
+          <div class="form-bottom__inputs">
+            <input
+              type="text"
+              name="username"
+              placeholder="Name"
+              class="form-bottom__input"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              class="form-bottom__input"
+            />
+            <input
+              type="tel"
+              name="tel"
+              placeholder="Enter your phone"
+              class="form-bottom__input"
+            />
+            <button class="form-bottom__btn">Order calculation</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <a href="index.html" class="footer__logo"
+          ><img src="./img/logo(1).svg" alt="Benelli"
+        /></a>
+
+        <div class="footer__credits">© All rights reserved</div>
+
+        <a class="footer__tel" href="tel:+74950535365">+7 495 053-53-65</a>
+      </div>
+    </footer>
+    <script src="../src/jquery-3.6.0.min.js"></script>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
